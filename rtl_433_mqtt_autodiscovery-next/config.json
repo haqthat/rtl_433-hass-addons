@@ -1,10 +1,9 @@
 {
-  "name": "rtl_433 MQTT Auto Discovery (next)",
-  "image": "ghcr.io/haqthat/rtl_433_mqtt_autodiscovery-next-{arch}:scmplus"
-  "version": "next",
-  "slug": "rtl_433_mqtt_autodiscovery_next_custom",
   "name": "rtl_433 MQTT Auto Discovery (next) – custom",
-  "url": "https://github.com/pbkhrv/rtl_433-hass-addons/tree/main/rtl_433_mqtt_autodiscovery-next",
+  "version": "0.1",
+  "slug": "rtl_433_mqtt_autodiscovery_next_custom",
+  "image": "ghcr.io/haqthat/rtl-433-mqtt-autodiscovery-next-{arch}:v0.1",
+  "url": "https://github.com/haqthat/rtl_433-hass-addons/tree/scmplus-mappings/rtl_433_mqtt_autodiscovery-next",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "boot": "auto",
